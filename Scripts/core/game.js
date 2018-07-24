@@ -41,10 +41,10 @@
         clickMeButton.regY = clickMeButton.getBounds().height * 0.5;
         clickMeButton.x = 320;
         clickMeButton.y = 340;
-        stage.addChild(clickMeButton);
         clickMeButton.on("mouseovere", clickMeButtonMouserOver);
         clickMeButton.on("mouseovere", clickMeButtonMouserOut);
         clickMeButton.on("mouseovere", clickMeButtonMouserClick);
+        stage.addChild(clickMeButton);
     }
     window.onload = Init;
 })();
