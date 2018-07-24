@@ -15,13 +15,13 @@ namespace objects {
       isCentered: boolean = false
     ) {
       super(labelString, fontSize + " " +fontFamily, fontColor);
-      this.x = x;
-      this.y = y;
         if(isCentered){
             this.regX = this.getMeasuredWidth() * 0.5;
             this.regY = this.getMeasuredHeight() * 0.5;
             
         }
+        this.x = x;
+        this.y = y;
     }
 
     // Private Method
